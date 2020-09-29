@@ -1,0 +1,12 @@
+@import url(./__topic/button__topic.css);
+@import url(./__icon-down/button__icon-down.css);
+
+.button {
+  width: 203px;
+  height: 46px;
+  background-color: #D7D1C9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

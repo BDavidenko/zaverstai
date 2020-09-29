@@ -1,0 +1,7 @@
+@import url(./__container/articles__container.css);
+@import url(./__topic/articles__topic.css);
+
+.articles {
+  max-width: 1200px;
+  margin: 0 auto 85px;
+}
