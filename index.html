@@ -15,11 +15,19 @@
         <div class="header__container">
           <img src="./images/header_image_logo.svg">
           <nav class="header__menu">
-          <ul class="header__list">
-              <li class="header__list-item"><a class="header__link" href="">Статьи</a></li>
-              <li class="header__list-item"><a class="header__link" href="">Обо мне</a></li>
-              <li class="header__list-item"><a class="header__link" href="">Портфолио</a></li>
-              <li class="header__list-item"><a class="header__link" href="">Написать мне</a></li>
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a class="header__link" href="">Статьи</a>
+              </li>   <!-- Добавить ссылки якоря -->
+              <li class="header__list-item">
+                <a class="header__link" href="">Обо мне</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="">Портфолио</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="">Написать мне</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -33,6 +41,66 @@
                 <li class="button__topic">Выбрать тему</li>
               </ul>
           </div>
+
+          <ul class="flex"> <!-- Изменить название класса на articles__list-->
+            <li class="flex__item-top">  <!-- atricles__list-top-item -->
+              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+                <img class="flex__image" src="./images/flex__item-top_image_1.jpg">
+                <h3 class="title title_location_flex-top">Путешествие в&nbsp;Берлин в&nbsp;августе</h3>
+                <p class="flex__paragraph-top">Летний месяц я&nbsp;провела в&nbsp;столице Германии вместе с&nbsp;друзьями. И&nbsp;вот как это было!</p>
+                <div class="flex__container-tag">
+                  <p class="flex__paragraph-tag">Теги: путешествия</p>
+                  <p class="flex__paragraph-tag">29.09.2020</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex__item-top">
+              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+                <img class="flex__image" src="./images/flex__item-top_image_2.jpg">
+                <h3 class="title title_location_flex-top">Где выпить колдбрю в&nbsp;Москве</h3>
+                <p class="flex__paragraph-top">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
+                <div class="flex__container-tag">
+                  <p class="flex__paragraph-tag">Теги: город</p>
+                  <p class="flex__paragraph-tag">24.07.2020</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex__item-top">
+              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+                <img class="flex__image" src="./images/flex__item-top_image_3.jpg">
+                <h3 class="title title_location_flex-top">Прочитано: книжные рекомендации</h3>
+                <p class="flex__paragraph-top">Рассказываю о&nbsp;прочитанных за&nbsp;последнее время книгах: фавориты и&nbsp;провалы.</p>
+                <div class="flex__container-tag">   <!-- Изменить модификаторы big small -->
+                  <p class="flex__paragraph-tag">Теги: книги</p>
+                  <p class="flex__paragraph-tag">15.07.2020</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex__item-bottom flex__item-bottom_bg_flowers">
+              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+                <h3 class="title title_location_flex-bottom">Снимки на&nbsp;плёнку</h3>
+                <p class="flex__paragraph-bottom">Поделилась с&nbsp;вами весенними фотографиями, и&nbsp;секретами удачных снимков.</p>
+                <div class="flex__container-tag flex__container-tag_size">
+                  <p class="flex__paragraph-tag flex__paragraph-tag_white">Теги: фотографии</p>
+                  <p class="flex__paragraph-tag flex__paragraph-tag_white">15.07.2020</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex__item-bottom flex__item-bottom_bg_cheesecake">
+              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+                <h3 class="title title_location_flex-bottom">Домашний чизкейк</h3>
+                <p class="flex__paragraph-bottom">Что может быть лучше чизкейка с&nbsp;сезонными ягодами? Только домашний чизкейк!</p>
+                <div class="flex__container-tag flex__container-tag_size">
+                  <p class="flex__paragraph-tag flex__paragraph-tag_white">Теги: рецепты</p>
+                  <p class="flex__paragraph-tag flex__paragraph-tag_white">15.07.2020</p>
+                </div>
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
 
