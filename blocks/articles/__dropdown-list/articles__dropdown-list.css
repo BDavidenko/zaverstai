@@ -1,0 +1,9 @@
+.articles__dropdown-list {
+  list-style-type: none;
+  padding-left: 0;
+  position: absolute;
+  right: 0;
+  top: 52px;
+  margin: 0;
+}
+

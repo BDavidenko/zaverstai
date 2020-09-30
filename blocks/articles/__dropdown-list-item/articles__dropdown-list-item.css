@@ -1,0 +1,14 @@
+.articles__dropdown-list-item {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  height: 46px;
+  width: 203px;
+  border-radius: 10px;
+  border-bottom: 1px solid rgba(32, 33, 23, .5);
+  background-color: #D7D1C9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+}

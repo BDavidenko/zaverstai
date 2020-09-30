@@ -1,0 +1,24 @@
+.articles__button {
+  width: 203px;
+  height: 46px;
+  background-color: #D7D1C9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  border-bottom: 1px solid rgba(32, 33, 23, .5);
+  outline: none;
+}
+
+.articles__button::after {
+  content: url(../../../images/button__icon-down.svg);
+  margin-top: 5px;
+}
+
+.articles__button:hover .articles__dropdown-list {
+  color: red;
+}
