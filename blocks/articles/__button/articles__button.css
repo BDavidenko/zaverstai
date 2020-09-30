@@ -19,6 +19,7 @@
   margin-top: 5px;
 }
 
-.articles__button:hover .articles__dropdown-list {
-  color: red;
+.articles__button:hover + .articles__dropdown-list {
+  display: block;
 }
+
