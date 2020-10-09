@@ -8,3 +8,6 @@
   display: none;
 }
 
+.articles__dropdown-list:hover {
+  display: block;
+}
