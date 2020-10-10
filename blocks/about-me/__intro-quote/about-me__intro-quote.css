@@ -1,0 +1,9 @@
+.about-me__intro-quote {
+  font-style: italic;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 98px 0 0;
+  padding: 27px 0 27px 20px;
+  margin-left: -20px;
+  border-left: 3px solid #D7D1C9;
+}
