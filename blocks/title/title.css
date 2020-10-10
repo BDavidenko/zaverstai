@@ -2,6 +2,8 @@
 @import url(./location/title_location_flex-top.css);
 @import url(./location/title_location_flex-bottom.css);
 @import url(./location/title_location_about-me.css);
+@import url(./location/title_location_portfolio.css);
+@import url(./location/title_location_portfolio-list-item.css);
 
 .title {
   font-family: 'Spectral SC';

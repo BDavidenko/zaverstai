@@ -1,4 +1,5 @@
 @import url(./_location/button_location_articles.css);
+@import url(./_location/button_location_portfolio.css);
 
 .button {
   border-radius: 10px;

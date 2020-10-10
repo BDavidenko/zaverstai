@@ -1,0 +1,6 @@
+.portfolio__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 104px;
+  display: flex;
+}

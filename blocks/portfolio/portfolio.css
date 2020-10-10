@@ -1,0 +1,12 @@
+@import url(./__content/portfolio__content.css);
+@import url(./__list-item/portfolio__list-item.css);
+@import url(./__list/portfolio__list.css);
+@import url(./__text-bold/portfolio__text-bold.css);
+@import url(./_bg/portfolio__list-item_bg_card-1.css);
+@import url(./_bg/portfolio__list-item_bg_card-2.css);
+@import url(./_bg/portfolio__list-item_bg_card-3.css);
+
+.portfolio {
+  max-width: 1200px;
+  margin: 0 auto 85px;
+}
