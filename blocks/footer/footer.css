@@ -1,0 +1,8 @@
+@import url(./__link/footer__link.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__list/footer__list.css);
+
+.footer {
+  width: 100vw;
+  background-color: #D7D1C9;
+}
