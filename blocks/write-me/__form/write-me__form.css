@@ -1,0 +1,8 @@
+.write-me__form {
+  background-image: url(../../../images/write-me__form_bg_cloud.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 53px 81px 62px;
+  justify-content: space-between;
+  border-radius: 10px;
+}

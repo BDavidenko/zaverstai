@@ -1,0 +1,11 @@
+@import url(./__area/write-me__area.css);
+@import url(./__fieldset/write-me__fieldset.css);
+@import url(./__form/write-me__form.css);
+@import url(./__input/write-me__input.css);
+@import url(./__input-container/write-me__input-container.css);
+@import url(./__area-container/write-me__area-container.css);
+
+.write-me {
+  max-width: 996px;
+  margin: 0 auto 81px;
+}

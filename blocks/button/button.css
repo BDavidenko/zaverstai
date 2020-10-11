@@ -1,11 +1,13 @@
 @import url(./_location/button_location_articles.css);
 @import url(./_location/button_location_portfolio.css);
+@import url(./_location/button_location_write-me.css);
 
 .button {
   border-radius: 10px;
   width: 224px;
   height: 46px;
   display: block;
-  margin: 0 auto;
   outline: none;
+  border: 1px solid #202117;
+  box-sizing: border-box;
 }

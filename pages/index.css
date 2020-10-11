@@ -10,7 +10,10 @@
 @import url(../blocks/about-me/about-me.css);
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/text/text_color_white.css);
+@import url(../blocks/write-me/write-me.css);
 
 /* header, section, footer, div, h1, h2, h3, img, p, a, ul, li, span, nav {
   border: 1px solid rgb(140, 0, 255);
 } */
+
+
