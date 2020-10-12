@@ -1,0 +1,10 @@
+@import url(./__like-counter/article__like-counter.css);
+@import url(./__list/article__list.css);
+@import url(./__list-item/article__list-item.css);
+@import url(./__container/article__container.css);
+@import url(./__like/article__like.css);
+
+.article {
+  max-width: 998px;
+  margin: 0 auto 65px;
+}
