@@ -5,6 +5,7 @@
 @import url(./location/title_location_portfolio.css);
 @import url(./location/title_location_portfolio-list-item.css);
 @import url(./location/title_location_write-me.css);
+@import url(./location/title_location_article.css);
 
 .title {
   font-family: 'Spectral SC';

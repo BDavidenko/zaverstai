@@ -1,0 +1,7 @@
+.article__tag {
+  display: inline-block;
+  margin: 0 18px 50px 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(46, 47, 34, 0.7);
+}

@@ -1,4 +1,5 @@
 .article__container {
   display: flex;
   align-items: center;
+  margin-bottom: 37px;
 }
