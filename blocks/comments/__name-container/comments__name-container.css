@@ -1,0 +1,5 @@
+.comments__name-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}

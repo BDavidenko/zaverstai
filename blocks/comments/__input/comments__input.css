@@ -1,0 +1,11 @@
+.comments__input {
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #2E2F22;;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.comments__input::placeholder {
+  color: #2E2F22;
+}

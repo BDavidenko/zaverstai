@@ -1,6 +1,7 @@
 @import url(./_location/button_location_articles.css);
 @import url(./_location/button_location_portfolio.css);
 @import url(./_location/button_location_write-me.css);
+@import url(./_location/button_location_comments.css);
 
 .button {
   border-radius: 10px;

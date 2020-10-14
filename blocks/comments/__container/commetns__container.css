@@ -1,0 +1,5 @@
+.commetns__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 84px 0 81px ;
+}

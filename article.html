@@ -57,6 +57,41 @@
           <a class="article__link" href="#">Ко всем статьям<img class="article__image-link" src="./images/article_image_arrow.svg"></a> <!-- повесить якорь-->
         </section>
 
+        <section class="comments">
+          <ul class="comments__list">
+            <li class="commetns__list-item">
+              <div class="comments__name-container">
+                <img class="comments__image" src="./images/comments__image_icon_1.svg">
+                <p class="commetns__name">Иван Петров</p>
+              </div>
+              <p class="comments__text">Отличная статья! Спасибо.</p>
+            </li>
+            <li class="commetns__list-item">
+              <div class="comments__name-container">
+                <img class="comments__image" src="./images/comments__image_icon_2.svg">
+                <p class="commetns__name">Ксения Ксения</p>
+              </div>
+              <p class="comments__text">Отличный текст, добавила в закладки.</p>
+            </li>
+            <li class="commetns__list-item">
+              <div class="comments__name-container">
+                <img class="comments__image" src="./images/comments__image_icon_3.svg">
+                <p class="commetns__name">Иван Иванов</p>
+              </div>
+              <p class="comments__text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+            </li>
+          </ul>
+          <h3 class="commetns__title">Оставить комментарий</h3>
+          <form class="comments__form">
+            <div class="commetns__container">
+              <input class="comments__input" type="text" placeholder="Имя" required>
+              <input class="comments__input" type="email" placeholder="Почта" required>
+              <button class="button button_location_comments" type="submit">Отправить</button>
+            </div>
+            <textarea class="comments__area" placeholder="Написать комментарий..." minlength="10" maxlength="300" required></textarea>
+          </form>
+        </section>
+
       </main>
       <footer class="footer">
         <ul class="footer__list">

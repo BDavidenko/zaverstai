@@ -1,0 +1,12 @@
+.comments__area {
+  width: 406px;
+  border-radius: 10px;
+  padding: 18px 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+  resize: none;
+}
+
+.comments__area::placeholder {
+  color: #2E2F22;
+}
