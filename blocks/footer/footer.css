@@ -3,6 +3,6 @@
 @import url(./__list/footer__list.css);
 
 .footer {
-  width: 100vw;
+  width: 100%;
   background-color: #D7D1C9;
 }
