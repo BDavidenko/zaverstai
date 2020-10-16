@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Описание сайта">
+    <meta name="description" content="Личный блог сладенькой Анны">
     <meta name="keywords" content="Ключевые слова">
     <meta name="author" content="Автор">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>ТИТУЛ</title>
+    <title>Блог ANNE SWEET</title>
   </head>
 
   <body class="page">
@@ -18,16 +18,16 @@
           <nav class="header__menu">
             <ul class="header__list">
               <li class="header__list-item">
-                <a class="header__link" href="">Статьи</a>
-              </li>   <!-- Добавить ссылки якоря -->
-              <li class="header__list-item">
-                <a class="header__link" href="">Обо мне</a>
+                <a class="header__link" href="#articles">Статьи</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="">Портфолио</a>
+                <a class="header__link" href="#about-me">Обо мне</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="">Написать мне</a>
+                <a class="header__link" href="#portfolio">Портфолио</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#write-me">Написать мне</a>
               </li>
             </ul>
           </nav>
@@ -35,12 +35,12 @@
       </header>
 
       <main class="content">
-        <section class="articles">
+        <section class="articles" id="articles">
           <div class="articles__container">
             <h2 class="title title_location_articles">Все статьи</h2>
             <button class="articles__button" type="button">Выбрать тему</button>
             <ul class="articles__dropdown-list">
-              <li class="articles__dropdown-list-item">Путешествия</li> <!-- Вставить ссылки в тэг li-->
+              <li class="articles__dropdown-list-item">Путешествия</li>
               <li class="articles__dropdown-list-item">Город</li>
               <li class="articles__dropdown-list-item">Книги</li>
               <li class="articles__dropdown-list-item">Фотографии</li>
@@ -51,7 +51,7 @@
 
           <ul class="flex"> <!-- Изменить название класса на articles__list-->
             <li class="flex__item-top">  <!-- atricles__list-top-item -->
-              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+              <a class="flex__link" href="./article.html" target="_blank">
                 <img class="flex__image" src="./images/flex__item-top_image_1.jpg">
                 <h3 class="title title_location_flex-top">Путешествие в&nbsp;Берлин в&nbsp;августе</h3>
                 <p class="flex__paragraph-top">Летний месяц я&nbsp;провела в&nbsp;столице Германии вместе с&nbsp;друзьями. И&nbsp;вот как это было!</p>
@@ -63,7 +63,7 @@
             </li>
 
             <li class="flex__item-top">
-              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+              <a class="flex__link" href="./article.html" target="_blank">
                 <img class="flex__image" src="./images/flex__item-top_image_2.jpg">
                 <h3 class="title title_location_flex-top">Где выпить колдбрю в&nbsp;Москве</h3>
                 <p class="flex__paragraph-top">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
@@ -75,11 +75,11 @@
             </li>
 
             <li class="flex__item-top">
-              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+              <a class="flex__link" href="./article.html" target="_blank">
                 <img class="flex__image" src="./images/flex__item-top_image_3.jpg">
                 <h3 class="title title_location_flex-top">Прочитано: книжные рекомендации</h3>
                 <p class="flex__paragraph-top">Рассказываю о&nbsp;прочитанных за&nbsp;последнее время книгах: фавориты и&nbsp;провалы.</p>
-                <div class="flex__container-tag">   <!-- Изменить модификаторы big small -->
+                <div class="flex__container-tag">
                   <p class="flex__paragraph-tag">Теги: книги</p>
                   <p class="flex__paragraph-tag">15.07.2020</p>
                 </div>
@@ -87,7 +87,7 @@
             </li>
 
             <li class="flex__item-bottom flex__item-bottom_bg_flowers">
-              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+              <a class="flex__link" href="./article.html" target="_blank">
                 <h3 class="title title_location_flex-bottom">Снимки на&nbsp;плёнку</h3>
                 <p class="flex__paragraph-bottom">Поделилась с&nbsp;вами весенними фотографиями, и&nbsp;секретами удачных снимков.</p>
                 <div class="flex__container-tag flex__container-tag_size">
@@ -98,7 +98,7 @@
             </li>
 
             <li class="flex__item-bottom flex__item-bottom_bg_cheesecake">
-              <a class="flex__link" href="">             <!-- Добавить ссылки на 2ю страницу макета -->
+              <a class="flex__link" href="./article.html" target="_blank">
                 <h3 class="title title_location_flex-bottom">Домашний чизкейк</h3>
                 <p class="flex__paragraph-bottom">Что может быть лучше чизкейка с&nbsp;сезонными ягодами? Только домашний чизкейк!</p>
                 <div class="flex__container-tag flex__container-tag_size">
@@ -112,7 +112,7 @@
           <button class="button button_location_articles" type="button">Показать еще</button>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
           <h2 class="title title_location_about-me">Обо мне</h2>
           <div class="about-me__container">
             <img class="about-me__image" src="./images/about-me__image_name_girl.jpg">
@@ -126,7 +126,7 @@
           </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
           <h2 class="title title_location_portfolio">Портфолио</h2>
           <ul class="portfolio__list">
             <li class="portfolio__list-item portfolio__list-item_bg_card-1">
@@ -150,7 +150,7 @@
           <button type="button" class="button button_location_portfolio">показать ещё</button>
         </section>
 
-        <section class="write-me">
+        <section class="write-me" id="write-me">
           <h2 class="title title_location_write-me">Написать мне</h2>
           <form class="write-me__form">
               <label class="write-me__input-container">Ваше имя<input class="write-me__input" type="text" placeholder="Имя Фамилия" required></label>

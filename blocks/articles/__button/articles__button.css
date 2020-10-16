@@ -12,6 +12,7 @@
   border: none;
   border-bottom: 1px solid rgba(32, 33, 23, .5);
   outline: none;
+  cursor: pointer;
 }
 
 .articles__button::after {

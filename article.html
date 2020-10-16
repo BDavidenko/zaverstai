@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Описание сайта">
+    <meta name="description" content="Личный блог сладенькой Анны">
     <meta name="keywords" content="Ключевые слова">
     <meta name="author" content="Автор">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>ТИТУЛ</title>
+    <title>Блог ANNE SWEET</title>
   </head>
 
   <body class="page">
@@ -18,16 +18,16 @@
           <nav class="header__menu">
             <ul class="header__list">
               <li class="header__list-item">
-                <a class="header__link" href="">Статьи</a>
-              </li>   <!-- Добавить ссылки якоря -->
-              <li class="header__list-item">
-                <a class="header__link" href="">Обо мне</a>
+                <a class="header__link" href="./index.html#articles">Статьи</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="">Портфолио</a>
+                <a class="header__link" href="./index.html#about-me">Обо мне</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="">Написать мне</a>
+                <a class="header__link" href="./index.html#portfolio">Портфолио</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="./#write-me">Написать мне</a>
               </li>
             </ul>
           </nav>
@@ -37,8 +37,8 @@
       <main class="content">
         <section class="article">
           <h1 class="title title_location_article">Как себя мотивировать</h1>
-          <p class="article__tag">Теги: путешествия, друзья</p> <!--тэг-->
-          <p class="article__tag">29.09.2020</p> <!--тэг-->
+          <p class="article__tag">Теги: путешествия, друзья</p>
+          <p class="article__tag">29.09.2020</p>
           <p class="article__text">Расскажу о&nbsp;биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в&nbsp;работе мотивационных стимулов. Узнала я&nbsp;о&nbsp;ней из&nbsp;книги &laquo;Воля и&nbsp;самоконтроль. Как гены и&nbsp;мозг мешают нам бороться с&nbsp;соблазнами&raquo; Ирины Якутенко.</p>
           <p class="article__text">Согласно этой теории, человеческое поведение контролируют две системы: BAS (Behavior Activation System) и&nbsp;BIS (Behavior Inhibition System), каждая из&nbsp;них обусловлена генетически. Грей использовал её&nbsp;для понимания того, как вознаграждение или наказание связаны с&nbsp;беспокойством и&nbsp;импульсивностью. Самое интересное, что активность этих систем у&nbsp;людей различна. Зная, какая из&nbsp;них доминирует, можно понять, какие стимулы использовать для эффективной мотивации.</p>
           <img class="article__image" src="./images/article__image_name_pen.jpg">
@@ -46,15 +46,15 @@
           <p class="article__text">BAS (Behavior Activation System) работает на&nbsp;ощущение позитивных эмоций. Мотивация людей, чье поведение в&nbsp;основном определяется этой системой, направлена на&nbsp;получение вознаграждения. Они стремятся получить одобрение и&nbsp;награду за&nbsp;свои действия. Такие люди более мотивированы в&nbsp;учебе и&nbsp;развитии разных навыков. Однако носители активной BAS склонны к&nbsp;импульсивности и&nbsp;желанию немедленного вознаграждения, что может мешать долгосрочной работе. BIS (Behavior Inhibition System) ответственна за&nbsp;избегающее поведение. Люди с&nbsp;этой активной системой мотивируются стремлением избежать проблем. Они более чувствительны к&nbsp;наказанию и&nbsp;новому опыту, а&nbsp;также стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.</p>
           <p class="article__text">Определив, к&nbsp;какому типу относится поведение, вы&nbsp;узнаете, какие стимулы использовать для достижения поставленной цели. Например, я&nbsp;решила выучить английский&nbsp;&mdash; само изучение не&nbsp;является целью, поэтому нужно правильно её&nbsp;сформулировать. Если моё поведение регулируется BAS, мне нужно выбрать своей конечной целью какую-то награду: например, если я&nbsp;выучу английский, то&nbsp;смогу смотреть фильмы в&nbsp;оригинале. Если&nbsp;же я&nbsp;склонна к&nbsp;BIS поведению, целью нужно выбрать избежание проблем: если я&nbsp;заговорю на&nbsp;английском, то&nbsp;не&nbsp;потеряюсь в&nbsp;новой стране. И&nbsp;это можно использовать в&nbsp;различных сферах жизни.</p>
           <div class="article__container">
-            <button class="article__like"><img src="./images/article__like_icon.svg"> </button>
+            <button class="article__like" type="button"><img src="./images/article__like_icon.svg"></button>
             <p class="article__like-counter">16</p>
             <ul class="article__list">
-              <li class="article__list-item"><img src="./images/article_icon_twitter.svg"></li> <!-- сделать ссылки-->
-              <li class="article__list-item"><img src="./images/article_icon_facebook.svg"></li>
-              <li class="article__list-item"><img src="./images/article_icon_vk.svg"></li>
+              <li class="article__list-item"><a href="#"><img src="./images/article_icon_twitter.svg"></a></li>
+              <li class="article__list-item"><a href="#"><img src="./images/article_icon_facebook.svg"></a></li>
+              <li class="article__list-item"><a href="#"><img src="./images/article_icon_vk.svg"></a></li>
             </ul>
           </div>
-          <a class="article__link" href="#">Ко всем статьям<img class="article__image-link" src="./images/article_image_arrow.svg"></a> <!-- повесить якорь-->
+          <a class="article__link" href="./index.html#articles">Ко всем статьям<img class="article__image-link" src="./images/article_image_arrow.svg"></a> <!-- повесить якорь-->
         </section>
 
         <section class="comments">
@@ -103,6 +103,6 @@
       </footer>
     </div>
 
-    <script src="index.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
