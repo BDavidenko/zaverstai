@@ -11,4 +11,5 @@
   outline: none;
   border: 1px solid #202117;
   box-sizing: border-box;
+  cursor: pointer;
 }

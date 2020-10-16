@@ -12,5 +12,6 @@
   box-sizing: border-box;
   min-height: 293px;
   resize: none;
+  outline: none;
 }
 

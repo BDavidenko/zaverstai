@@ -4,6 +4,8 @@
   border-bottom: 1px solid #2E2F22;;
   font-size: 16px;
   line-height: 22px;
+  background-color: rgba(196, 196, 196, .0);
+  outline: none;
 }
 
 .comments__input::placeholder {

@@ -4,6 +4,6 @@
 }
 
 .flex__item-top:hover {
-  opacity: .9;
+  opacity: .8;
   transition: opacity .2s linear;
 }

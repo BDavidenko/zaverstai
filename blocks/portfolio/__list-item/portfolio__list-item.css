@@ -3,6 +3,12 @@
   min-height: 525px;
   margin-right: 20px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.portfolio__list-item:hover {
+  opacity: .8;
+  transition: opacity .2s linear;
 }
 
 .portfolio__list-item:last-of-type {
