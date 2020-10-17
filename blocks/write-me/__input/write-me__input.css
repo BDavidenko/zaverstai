@@ -15,4 +15,7 @@
   outline: none;
 }
 
+.write-me__input:focus {
+  border: 3px solid #202117;
+}
 

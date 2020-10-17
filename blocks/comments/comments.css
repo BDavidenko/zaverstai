@@ -1,12 +1,12 @@
 @import url(./__list/comments__list.css);
-@import url(./__list-item/commetns__list-item.css);
+@import url(./__list-item/comments__list-item.css);
 @import url(./__image/comments__image.css);
-@import url(./__name/commetns__name.css);
+@import url(./__name/comments__name.css);
 @import url(./__text/comments__text.css);
 @import url(./__name-container/comments__name-container.css);
 @import url(./__form/comments__form.css);
-@import url(./__container/commetns__container.css);
-@import url(./__title/commetns__title.css);
+@import url(./__container/comments__container.css);
+@import url(./__title/comments__title.css);
 @import url(./__input/comments__input.css);
 @import url(./__area/comments__area.css);
 

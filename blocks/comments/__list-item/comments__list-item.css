@@ -1,8 +1,8 @@
-.commetns__list-item {
+.comments__list-item {
   margin: 0 auto 23px;
   max-width: 613px;
 }
 
-.commetns__list-item:last-of-type {
+.comments__list-item:last-of-type {
   margin-bottom: 0;
 }

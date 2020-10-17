@@ -1,9 +1,9 @@
 .flex__item-bottom {
   flex-basis: 590px;
   height: 552px;
+  transition: .2s ease;
 }
 
 .flex__item-bottom:hover {
-  opacity: .9;
-  transition: opacity .2s linear;
+  transform: scale(1.03);
 }

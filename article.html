@@ -14,7 +14,9 @@
     <div class="root">
       <header class="header header_bg_mountain">
         <div class="header__container">
-          <img src="./images/header_image_logo.svg" alt="Ромб внури которого имя ANNE SWEET">
+          <a href="./index.html">
+            <img src="./images/header_image_logo.svg" alt="Ромб внури которого имя ANNE SWEET">
+          </a>
           <nav class="header__menu">
             <ul class="header__list">
               <li class="header__list-item">
@@ -59,36 +61,36 @@
 
         <section class="comments">
           <ul class="comments__list">
-            <li class="commetns__list-item">
+            <li class="comments__list-item">
               <div class="comments__name-container">
                 <img class="comments__image" src="./images/comments__image_icon_1.svg" alt="Аватар пользователя">
-                <p class="commetns__name">Иван Петров</p>
+                <p class="comments__name">Иван Петров</p>
               </div>
               <p class="comments__text">Отличная статья! Спасибо.</p>
             </li>
-            <li class="commetns__list-item">
+            <li class="comments__list-item">
               <div class="comments__name-container">
                 <img class="comments__image" src="./images/comments__image_icon_2.svg" alt="Аватар пользователя">
-                <p class="commetns__name">Ксения Ксения</p>
+                <p class="comments__name">Ксения Ксения</p>
               </div>
               <p class="comments__text">Отличный текст, добавила в закладки.</p>
             </li>
-            <li class="commetns__list-item">
+            <li class="comments__list-item">
               <div class="comments__name-container">
                 <img class="comments__image" src="./images/comments__image_icon_3.svg" alt="Аватар пользователя">
-                <p class="commetns__name">Иван Иванов</p>
+                <p class="comments__name">Иван Иванов</p>
               </div>
               <p class="comments__text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
             </li>
           </ul>
-          <h3 class="commetns__title">Оставить комментарий</h3>
-          <form class="comments__form">
-            <div class="commetns__container">
-              <input class="comments__input" type="text" placeholder="Имя" required>
-              <input class="comments__input" type="email" placeholder="Почта" required>
+          <h3 class="comments__title">Оставить комментарий</h3>
+          <form class="comments__form" name="comments">
+            <div class="comments__container">
+              <input class="comments__input" type="text" placeholder="Имя" name="name" required>
+              <input class="comments__input" type="email" placeholder="Почта" name="email" required>
               <button class="button button_location_comments" type="submit">Отправить</button>
             </div>
-            <textarea class="comments__area" placeholder="Написать комментарий..." minlength="10" maxlength="300" required></textarea>
+            <textarea class="comments__area" placeholder="Написать комментарий..." minlength="10" maxlength="300" name="text" required></textarea>
           </form>
         </section>
 
@@ -102,6 +104,16 @@
         </ul>
       </footer>
     </div>
+
+    <template id="comment-template">
+      <li class="comments__list-item">
+        <div class="comments__name-container">
+          <img class="comments__image" src="./images/comments__image_icon_1.svg" alt="Аватар пользователя">
+          <p class="comments__name"></p>
+        </div>
+        <p class="comments__text"></p>
+      </li>
+    </template>
 
     <script src="./scripts/index.js"></script>
   </body>

@@ -1,4 +1,9 @@
 .flex__image {
   border-radius: 10px;
   margin: 0 0 27px;
+  transition: .2s ease;
+}
+
+.flex__image:hover {
+  transform: scale(1.05);
 }
