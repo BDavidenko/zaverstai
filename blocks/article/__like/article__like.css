@@ -3,6 +3,10 @@
   padding: 0;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  transform: .2s ease;
 }
 
-
+.article__like:hover {
+  transform: scale(1.03);
+}

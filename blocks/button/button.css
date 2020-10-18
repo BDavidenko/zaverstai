@@ -12,10 +12,11 @@
   border: 1px solid #202117;
   box-sizing: border-box;
   cursor: pointer;
+  transform: .2s ease;
 }
 
-.button:active {
-  border: 3px solid #202117;
+.button:hover {
+  transform: scale(1.01);
 }
 
 .button:focus {
