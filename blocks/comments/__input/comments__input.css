@@ -11,3 +11,7 @@
 .comments__input::placeholder {
   color: #2E2F22;
 }
+
+.comments__input:focus {
+  border-bottom: 3px solid #2E2F22;;
+}

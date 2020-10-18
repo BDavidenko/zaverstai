@@ -5,3 +5,8 @@
   background-color: transparent;
   outline: none;
 }
+
+.article__like:focus {
+  border: 3px solid #2E2F22;;
+  border-radius: 10px;
+}

@@ -4,4 +4,11 @@
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
+  transition: .2s ease;
+}
+
+.article__link:hover {
+  opacity: 0.8;
+  border-bottom: 3px solid #2E2F22;
+  transition: all .2s ease;
 }
