@@ -1,3 +1,7 @@
 .article__list-item {
+  transition: .2s ease;
+}
 
+.article__list-item:hover {
+  transform: scale(1.02);
 }
