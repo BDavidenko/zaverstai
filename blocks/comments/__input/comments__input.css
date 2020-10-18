@@ -5,13 +5,9 @@
   font-size: 16px;
   line-height: 22px;
   background-color: rgba(196, 196, 196, .0);
-  outline: none;
 }
 
 .comments__input::placeholder {
   color: #2E2F22;
 }
 
-.comments__input:focus {
-  border-bottom: 3px solid #2E2F22;;
-}
