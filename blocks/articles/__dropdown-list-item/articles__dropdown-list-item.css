@@ -12,5 +12,6 @@
   align-items: center;
   margin-bottom: 1px;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
