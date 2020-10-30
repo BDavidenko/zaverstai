@@ -1,20 +1,33 @@
 const dropdownList = document.querySelector('.articles__dropdown-list');
-const tagList = document.querySelectorAll('.tag');
+const articleList = document.querySelectorAll('.flex-item');
 
-const numbers = [4, 8, 15, 16, 23, 42];
 
-console.log(typeof(tagList));
 
-tagList[0];
+// console.log(articleList);
+
+
 
 
 // фильтр по тегам
 function filterTag(evt) {
   const articleTheme = evt.target.textContent;
 
+  articleList.forEach(article => {
+    const tag = article.querySelector('.tag').textContent;
 
+    if (tag !== articleTheme) {
+      article.classList.add('article-hide');
+      article.classList.remove('article-show');
+    } else {
+      article.classList.add('article-show');
+      article.classList.remove('article-hide');
+    }
 
-  console.log(articleTheme);
+    if (articleTheme == 'все статьи') {
+      article.classList.remove('article-hide');
+      article.classList.add('article-show');
+    }
+  });
 }
 
 dropdownList.addEventListener('click', filterTag);

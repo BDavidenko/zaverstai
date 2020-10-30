@@ -41,7 +41,7 @@ function addComment(evt) { // evt-event обьявляем функцию доб
 //контроль длинны комментария
 
 function checkValidation(input, submit) {
-  if (input.value.length < 9) {
+  if (!input.validity.valid) {
     input.classList.add('warning');
     submit.disabled = true;
   } else {

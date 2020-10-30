@@ -9,6 +9,8 @@
 @import url(./__item-bottom_bg/flex__item-bottom_bg_flowers.css);
 @import url(./__item-bottom_bg/flex__item-bottom_bg_cheesecake.css);
 @import url(./__container-tag_size/flex__container-tag_size.css);
+@import url(./article-hide.css);
+@import url(./article-show.css);
 
 .flex {
   list-style-type: none;
