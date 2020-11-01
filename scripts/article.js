@@ -26,8 +26,8 @@ function toggleLike() {
 
 // комментарии на странице статьи
 
-function addComment(evt) { // evt-event обьявляем функцию добавить коментарий.
-  evt.preventDefault(); // отменяем стандартное поведение, разрешаем изменение.
+function addComment(evt) { // evt-event обьявляем функцию добавить коментарий
+  evt.preventDefault(); // отменяем стандартное поведение сабмита формы, разрешаем изменение
 
   const comment = commentTemplate.querySelector('.comments__list-item').cloneNode(true); // клонируем саму ЛИ которая полетит в отца в виде коментария
   const userName = comment.querySelector('.comments__name'); // нашли элемент в который будет вставляться текст с инпута имя
