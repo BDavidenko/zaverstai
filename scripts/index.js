@@ -12,11 +12,11 @@ function filterTag(evt) {
     const tag = article.querySelector('.tag').textContent;
 
     if (articleTheme === tag || articleTheme === showAllBtnTxt) {
-      article.classList.add('article-show');
+      //article.classList.add('article-show');
       article.classList.remove('article-hide');
     } else {
       article.classList.add('article-hide');
-      article.classList.remove('article-show');
+      //article.classList.remove('article-show');
     }
   });
 }
